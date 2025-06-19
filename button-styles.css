@@ -1,0 +1,48 @@
+/* Styles de boutons pour Pâtisserie Haloui */
+.order-btn {
+    background-color: #F0C808 !important;
+    color: white !important;
+}
+.order-btn:hover {
+    background-color: #c9a227 !important;
+}
+
+.cta-btn.primary {
+    background: #F0C808 !important;
+    color: #24292F !important;
+}
+.cta-btn.primary:hover {
+    background: #c9a227 !important;
+}
+
+.cta-btn.secondary {
+    border: 2px solid #F0C808 !important;
+}
+.cta-btn.secondary:hover {
+    background: #c9a227 !important;
+    color: #24292F !important;
+}
+
+.online-button {
+    background-color: #F0C808 !important;
+}
+.online-button:hover {
+    background-color: #c9a227 !important;
+}
+
+.custom-order-btn {
+    background: #F0C808 !important;
+}
+.custom-order-btn:hover {
+    background: #c9a227 !important;
+}
+
+/* Ajout du style pour view-all-btn */
+.view-all-btn {
+    background: #F0C808 !important;
+    color: white !important;
+}
+.view-all-btn:hover {
+    background: #c9a227 !important;
+    transform: translateY(-3px);
+}

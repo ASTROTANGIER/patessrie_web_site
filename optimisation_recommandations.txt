@@ -1,0 +1,37 @@
+PAGES NON ESSENTIELLES QUI PEUVENT ÊTRE SUPPRIMÉES :
+
+1. check_database.php - Utile uniquement pour le débogage initial
+2. add_stock_column.php - Script ponctuel qui n'est plus nécessaire une fois exécuté
+3. setup_orders_tables.php - Peut être fusionné avec d'autres scripts d'installation
+
+OPTIMISATIONS GÉNÉRALES :
+
+1. Fichiers CSS :
+   - Fusionner les fichiers CSS similaires
+   - Minifier les CSS pour la production
+   - Supprimer les styles inutilisés
+
+2. Fichiers JavaScript :
+   - Combiner les petits fichiers JS en un seul
+   - Minifier pour la production
+   - Supprimer les fonctions non utilisées
+
+3. Structure de fichiers :
+   - Créer un dossier "admin" pour toutes les pages d'administration
+   - Déplacer tous les scripts d'installation dans un dossier "setup"
+   - Organiser les includes dans un dossier dédié
+
+4. Base de données :
+   - Normaliser les noms de tables (tout en minuscules ou tout en majuscules)
+   - Corriger l'orthographe de "patessrie" en "patisserie"
+   - Standardiser les noms de colonnes
+
+5. Sécurité :
+   - Activer les vérifications d'authentification commentées
+   - Centraliser la logique d'authentification
+   - Utiliser des tokens CSRF pour les formulaires
+
+6. Code PHP :
+   - Utiliser des classes pour les opérations répétitives (CRUD)
+   - Séparer la logique métier de l'affichage
+   - Standardiser la gestion des erreurs
